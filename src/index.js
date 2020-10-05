@@ -43,7 +43,6 @@ module.exports = function toReadable(number) {
   function numWords(input) {
     let num = Number(input);
     let res = '';
-    // if (isNaN(num)) throw new numWords('isNaN');
     if (num === 0) return 'zero';
 
     const numStr = num.toString();
